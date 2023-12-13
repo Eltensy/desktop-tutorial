@@ -1,0 +1,33 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <system:String x:Key="Hello">Hello</system:String>
+    <system:String x:Key="Priority">Priority</system:String>
+    <system:String x:Key="High">High</system:String>
+    <system:String x:Key="Low">Low</system:String>
+    <system:String x:Key="Medium">Medium</system:String>
+    <system:String x:Key="Labels">Labels</system:String>
+    <system:String x:Key="DueDate">Due Date</system:String>
+    <system:String x:Key="Search">Search...</system:String>
+    <system:String x:Key="AddTask">Add Task</system:String>
+    <system:String x:Key="Task">Task</system:String>
+    <system:String x:Key="Project">Project</system:String>
+    <system:String x:Key="Productivity">Productivity</system:String>
+    <system:String x:Key="Projects">Projects</system:String>
+    <system:String x:Key="Calendar">Calendar</system:String>
+    <system:String x:Key="Today">Today</system:String>
+    <system:String x:Key="Alphabetically">Alphabetically</system:String>
+    <system:String x:Key="ByDate">By Date</system:String>
+    <system:String x:Key="ByPrio">By Priority</system:String>
+    <system:String x:Key="Group">Group</system:String>
+    <system:String x:Key="Default">Default</system:String>
+    <system:String x:Key="ByLabels">By Labels</system:String>
+    <system:String x:Key="ChangePass">Change Password</system:String>
+    <system:String x:Key="Logout">Logout</system:String>
+    <system:String x:Key="Theme">Theme</system:String>
+    <system:String x:Key="Dark">Dark</system:String>
+    <system:String x:Key="Light">Light</system:String>
+    <system:String x:Key="Sort">Sort</system:String>
+
+</ResourceDictionary>

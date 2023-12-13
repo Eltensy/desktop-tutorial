@@ -1,0 +1,36 @@
+﻿<Window x:Class="WpfTaskMaster.AddProjectWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTaskMaster"
+        mc:Ignorable="d"
+        Title="AddProjectWindow" Height="400" Width="350"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel Margin="10">
+            <Label>Project Name:</Label>
+            <TextBox x:Name="projectNameTextBox" Width="200" Margin="5"/>
+
+            <Label>Description:</Label>
+            <TextBox x:Name="projectDescriptionTextBox" Width="200" Margin="5"/>
+
+            <Label>Due Date:</Label>
+            <DatePicker x:Name="dueDatePicker" Width="200" Margin="5"/>
+
+            <Label>Status:</Label>
+            <ComboBox x:Name="statusComboBox" Width="200" Margin="5">
+                <ComboBoxItem>Not started</ComboBoxItem>
+                <ComboBoxItem>In progress</ComboBoxItem>
+                <ComboBoxItem>Not finished</ComboBoxItem>
+                <ComboBoxItem>Done</ComboBoxItem>
+                <ComboBoxItem>Redone</ComboBoxItem>
+            </ComboBox>
+
+            <Label>Labels:</Label>
+            <TextBox x:Name="labelsTextBox" Width="200" Margin="5,5,5,25"/>
+
+            <Button Content="Add Project" Width="100" Height="30" Margin="5" Background="#FF7493F6" Click="AddProject_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
